@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode user data (personal settings, breakpoints, schemes — not shared)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode build output
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode index
+*.hmap
+*.ipa
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.resolved
+
+# CocoaPods (if ever added)
+Pods/
+Podfile.lock
+
+# Carthage (if ever added)
+Carthage/Build/
+
+# Secrets / environment
+.env
+*.env
+secrets.plist
+Secrets.plist
